@@ -13,21 +13,24 @@ from time import sleep
 from pytz import timezone, utc
 import urllib.request, json
 
-ticker_list=['ARKK','AAPL','_SPX', '_VIX', 'QQQ','XLK','IWM', 'SMH', 'MSFT','AMD', 'NVDA','AVGO', 'TSLA', 'GOOG', 'GOOGL','META','GLD','XLE','XOM','OXY','MPC','USO','UUP']
-
-
-
-
 dir_datetime=datetime.now(timezone('UTC')).astimezone(timezone('US/Eastern'))
-##folder_appendix = '_Before' if datetime.now(timezone('UTC')).astimezone(timezone('US/Eastern')).hour in range(9) else ('_Open' if datetime.now(timezone('UTC')).astimezone(timezone('US/Eastern')).hour in range(9,11) else '_Post')
-dir_name=str(dir_datetime.year)+str(dir_datetime.month).rjust(2,'0')+str(dir_datetime.day).rjust(2,'0')+'_'+str(dir_datetime.hour).rjust(2,'0')+str(dir_datetime.minute).rjust(2,'0')+'_'+'EST'
-dir_name=str(dir_datetime.year)+str(dir_datetime.month).rjust(2,'0')+str(dir_datetime.day).rjust(2,'0')
+dir_name=str(dir_datetime.year)+'_'+str(dir_datetime.month).rjust(2,'0')+'_'+str(dir_datetime.day).rjust(2,'0')
 
-current_dir=os.getcwd()
-dest_dir=os.path.join(current_dir,dir_name)
+url1 = "https://raw.githubusercontent.com/robcarver17/reports/master/Strategy_report"
+url2="https://raw.githubusercontent.com/robcarver17/reports/master/Risk_report"
+file_name1 = dir_name+"_strategy_report.txt"
+file_name2 = dir_name+"_risk_report.txt"
 
-isExist = os.path.exists(dest_dir)
+with urllib.request.urlopen(url1) as file:
+    with open(file_name1, "wb") as f:
+        f.write(file.read())
+print(f"File '{file_name1}' downloaded successfully!")
+
+with urllib.request.urlopen(url2) as file:
+    with open(file_name2, "wb") as f:
+        f.write(file.read())
+
+print(f"File '{file_name2}' downloaded successfully!")
 
 
-if not isExist:
-  os.makedirs(dest_dir)
+

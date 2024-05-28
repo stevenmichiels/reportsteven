@@ -1,10 +1,10 @@
 name: daily fetch
 
-on: [workflow_dispatch]
+#on: [workflow_dispatch]
   
-#on:
-  #schedule:
-     #- cron: '45 23 * * 1-5'     #'45 14 * * 1-5' (see https://crontab.guru)
+on:
+  schedule:
+     - cron: '45 23 * * 1-5'     #'45 14 * * 1-5' (see https://crontab.guru)
     
 jobs:
   build:

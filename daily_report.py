@@ -19,9 +19,12 @@ dir_name=str(dir_datetime.year)+'_'+str(dir_datetime.month).rjust(2,'0')+'_'+str
 url1 = "https://raw.githubusercontent.com/robcarver17/reports/master/Strategy_report"
 url2="https://raw.githubusercontent.com/robcarver17/reports/master/Risk_report"
 url3="https://raw.githubusercontent.com/robcarver17/reports/master/Trade_report"
+url4="https://raw.githubusercontent.com/robcarver17/reports/master/Roll_report"
+
 file_name1 = dir_name+"_strategy_report.txt"
 file_name2 = dir_name+"_risk_report.txt"
 file_name3 = dir_name+"_trade_report.txt"
+file_name3 = dir_name+"_roll_report.txt"
 
 with urllib.request.urlopen(url1) as file:
     with open(file_name1, "wb") as f:
@@ -37,4 +40,9 @@ with urllib.request.urlopen(url3) as file:
     with open(file_name3, "wb") as f:
         f.write(file.read())
 print(f"File '{file_name3}' downloaded successfully!")
+
+with urllib.request.urlopen(url4) as file:
+    with open(file_name4, "wb") as f:
+        f.write(file.read())
+print(f"File '{file_name4}' downloaded successfully!")
 

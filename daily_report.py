@@ -24,7 +24,7 @@ url4="https://raw.githubusercontent.com/robcarver17/reports/master/Roll_report"
 file_name1 = dir_name+"_strategy_report.txt"
 file_name2 = dir_name+"_risk_report.txt"
 file_name3 = dir_name+"_trade_report.txt"
-file_name3 = dir_name+"_roll_report.txt"
+file_name4 = dir_name+"_roll_report.txt"
 
 with urllib.request.urlopen(url1) as file:
     with open(file_name1, "wb") as f:

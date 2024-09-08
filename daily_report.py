@@ -20,11 +20,19 @@ url1 = "https://raw.githubusercontent.com/robcarver17/reports/master/Strategy_re
 url2="https://raw.githubusercontent.com/robcarver17/reports/master/Risk_report"
 url3="https://raw.githubusercontent.com/robcarver17/reports/master/Trade_report"
 url4="https://raw.githubusercontent.com/robcarver17/reports/master/Roll_report"
+url5="https://raw.githubusercontent.com/robcarver17/reports/master/Reconcile_report"
+url6="https://raw.githubusercontent.com/robcarver17/reports/master/Remove_markets_report"
+
+
+
+
 
 file_name1 = dir_name+"_strategy_report.txt"
 file_name2 = dir_name+"_risk_report.txt"
 file_name3 = dir_name+"_trade_report.txt"
 file_name4 = dir_name+"_roll_report.txt"
+file_name5 = dir_name+"_reconcile_report.txt"
+file_name6 = dir_name+"_remove_markets_report.txt"
 
 with urllib.request.urlopen(url1) as file:
     with open(file_name1, "wb") as f:
@@ -46,3 +54,12 @@ with urllib.request.urlopen(url4) as file:
         f.write(file.read())
 print(f"File '{file_name4}' downloaded successfully!")
 
+with urllib.request.urlopen(url5) as file:
+    with open(file_name5, "wb") as f:
+        f.write(file.read())
+print(f"File '{file_name5}' downloaded successfully!")
+
+with urllib.request.urlopen(url5) as file:
+    with open(file_name5, "wb") as f:
+        f.write(file.read())
+print(f"File '{file_name5}' downloaded successfully!")

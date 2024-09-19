@@ -1,0 +1,100 @@
+
+********************************************************************************
+Trades report produced on 19/09/2024 22:50 from 18/09/2024 22:50 to 19/09/2024 22:50
+********************************************************************************
+
+
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+33859      GOLD_micro  dynamic_TF_carry    [20241200] 2024-09-19 14:00:10  [-1]        2601.7
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+33859      GOLD_micro  dynamic_TF_carry       2024-09-17 00:00:00  2024-09-19 14:00:10.317000  2024-09-19 14:00:10             223210.317                 NaN
+
+
+==========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                 
+==========================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
+33859      GOLD_micro  dynamic_TF_carry  [-1]                 2597.8               None   2601.55     2601.5        2601.6      2601.6       2601.7  3.75   -0.05       0.2          0.1                 NaN          0.15
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+33859      GOLD_micro  dynamic_TF_carry  [-1]      326.893914  114.716115   -1.529548      6.118193         3.059096                     NaN          4.588645
+
+
+=======================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                      
+=======================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+33859      GOLD_micro  dynamic_TF_carry  [-1]             7.560265  28.350993    -0.378013       1.512053          0.756026                      NaN            1.13404
+
+delay_cash Sum
+                                 delay_cash
+strategy_name    instrument_code           
+dynamic_TF_carry GOLD_micro       28.350993
+delay_cash Total Sum
+                 delay_cash
+strategy_name              
+dynamic_TF_carry  28.350993
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry GOLD_micro         -0.378013
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry    -0.378013
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry GOLD_micro            1.512053
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry       1.512053
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry GOLD_micro               0.756026
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry          0.756026
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry GOLD_micro                             0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry GOLD_micro                 1.13404
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry            1.13404
+
+********************************************************************************
+                                 END OF REPORT                                  
+********************************************************************************
+
+

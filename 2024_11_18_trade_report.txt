@@ -1,0 +1,100 @@
+
+********************************************************************************
+Trades report produced on 18/11/2024 22:50 from 17/11/2024 22:50 to 18/11/2024 22:50
+********************************************************************************
+
+
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+34053         LEANHOG  dynamic_TF_carry    [20241200] 2024-11-18 15:30:04  [-1]        80.225
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+34053         LEANHOG  dynamic_TF_carry       2024-11-14 19:00:00  2024-11-18 15:30:03.606000  2024-11-18 15:30:04             333003.606               0.394
+
+
+==========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                 
+==========================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
+34053         LEANHOG  dynamic_TF_carry  [-1]                   79.9               None     80.25     80.225        80.275      80.275       80.225  0.35  -0.025      -0.0        -0.05                 NaN        -0.025
+
+
+=============================================================================================================================================================
+                                                    Slippage (normalised by annual vol, BP of annual SR)                                                     
+=============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol  delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+34053         LEANHOG  dynamic_TF_carry  [-1]       18.389406  190.32697  -13.594784          -0.0       -27.189567                     NaN        -13.594784
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+34053         LEANHOG  dynamic_TF_carry  [-1]           316.853016  110.898556    -7.921325           -0.0        -15.842651                      NaN          -7.921325
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry LEANHOG          110.898556
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry  110.898556
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry LEANHOG            -7.921325
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry    -7.921325
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry LEANHOG                   -0.0
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry           -0.0
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry LEANHOG                -15.842651
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry        -15.842651
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry LEANHOG                                0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry LEANHOG                  -7.921325
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry          -7.921325
+
+********************************************************************************
+                                 END OF REPORT                                  
+********************************************************************************
+
+

@@ -1,0 +1,116 @@
+
+********************************************************************************
+Trades report produced on 10/01/2025 22:50 from 09/01/2025 22:50 to 10/01/2025 22:50
+********************************************************************************
+
+
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+34284    COPPER-micro  dynamic_TF_carry    [20250300] 2025-01-10 14:00:10  [-1]         4.333
+34282          RUBBER  dynamic_TF_carry    [20250200] 2025-01-10 02:03:41  [-1]       189.700
+34283          RUBBER  dynamic_TF_carry    [20250200] 2025-01-10 02:04:03  [-1]       189.600
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+34282          RUBBER  dynamic_TF_carry       2025-01-09 08:00:00  2025-01-10 02:02:06.230000  2025-01-10 02:03:41               64926.23               94.77
+34283          RUBBER  dynamic_TF_carry       2025-01-09 08:00:00  2025-01-10 02:03:46.398000  2025-01-10 02:04:03              65026.398              16.602
+34284    COPPER-micro  dynamic_TF_carry       2024-02-29 00:00:00  2025-01-10 14:00:09.957000  2025-01-10 14:00:10           27352809.957               0.043
+
+
+===========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                  
+===========================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+34282          RUBBER  dynamic_TF_carry  [-1]                  188.1               None     189.8      189.7         189.9       189.9        189.7    1.7    -0.1      -0.0         -0.2                 NaN          -0.1
+34283          RUBBER  dynamic_TF_carry  [-1]                  188.1               None    189.75      189.7         189.8       189.8        189.6   1.65   -0.05      -0.1         -0.2                 NaN         -0.15
+34284    COPPER-micro  dynamic_TF_carry  [-1]                   3.92               None     4.334     4.3335        4.3345      4.3345        4.333  0.414 -0.0005   -0.0005      -0.0015                 NaN        -0.001
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+34282          RUBBER  dynamic_TF_carry  [-1]       49.410623  344.055566  -20.238563          -0.0       -40.477125                     NaN        -20.238563
+34283          RUBBER  dynamic_TF_carry  [-1]       49.410623  333.936285  -10.119281    -20.238563       -40.477125                     NaN        -30.357844
+34284    COPPER-micro  dynamic_TF_carry  [-1]          0.8177  5062.98243   -6.114713     -6.114713       -18.344139                     NaN        -12.229426
+
+
+=======================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                      
+=======================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+34282          RUBBER  dynamic_TF_carry  [-1]            40.749962  69.274936    -4.074996           -0.0         -8.149992                      NaN          -4.074996
+34283          RUBBER  dynamic_TF_carry  [-1]            40.749962  67.237438    -2.037498      -4.074996         -8.149992                      NaN          -6.112494
+34284    COPPER-micro  dynamic_TF_carry  [-1]          2037.498115  843.52422    -1.018749      -1.018749         -3.056247                      NaN          -2.037498
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry COPPER-micro      843.52422
+                 RUBBER           136.512374
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry  980.036593
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry COPPER-micro       -1.018749
+                 RUBBER             -6.112494
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry    -7.131243
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry COPPER-micro         -1.018749
+                 RUBBER               -4.074996
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry      -5.093745
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry COPPER-micro            -3.056247
+                 RUBBER                 -16.299985
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry        -19.356232
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry COPPER-micro                           0
+                 RUBBER                                 0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry COPPER-micro             -2.037498
+                 RUBBER                  -10.187491
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry         -12.224989
+
+********************************************************************************
+                                 END OF REPORT                                  
+********************************************************************************
+
+

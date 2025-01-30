@@ -1,0 +1,100 @@
+
+********************************************************************************
+Trades report produced on 30/01/2025 22:51 from 29/01/2025 22:51 to 30/01/2025 22:51
+********************************************************************************
+
+
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+34349         RUSSELL  dynamic_TF_carry    [20250300] 2025-01-30 15:00:03  [-1]        2323.8
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+34349         RUSSELL  dynamic_TF_carry       2025-01-28 00:00:00  2025-01-30 15:00:03.001000  2025-01-30 15:00:03             226803.001                 NaN
+
+
+===========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                  
+===========================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+34349         RUSSELL  dynamic_TF_carry  [-1]                 2301.3               None   2323.95     2323.8        2324.1      2324.1       2323.8  22.65   -0.15      -0.0         -0.3                 NaN         -0.15
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+34349         RUSSELL  dynamic_TF_carry  [-1]      396.201045  571.679461   -3.785957          -0.0        -7.571913                     NaN         -3.785957
+
+
+=======================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                      
+=======================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+34349         RUSSELL  dynamic_TF_carry  [-1]             4.019163   91.03405    -0.602875           -0.0         -1.205749                      NaN          -0.602875
+
+delay_cash Sum
+                                 delay_cash
+strategy_name    instrument_code           
+dynamic_TF_carry RUSSELL           91.03405
+delay_cash Total Sum
+                 delay_cash
+strategy_name              
+dynamic_TF_carry   91.03405
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry RUSSELL            -0.602875
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry    -0.602875
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry RUSSELL                   -0.0
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry           -0.0
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry RUSSELL                 -1.205749
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry         -1.205749
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry RUSSELL                                0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry RUSSELL                  -0.602875
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry          -0.602875
+
+********************************************************************************
+                                 END OF REPORT                                  
+********************************************************************************
+
+

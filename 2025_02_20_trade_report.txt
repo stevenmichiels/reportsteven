@@ -1,0 +1,100 @@
+
+********************************************************************************
+Trades report produced on 20/02/2025 22:51 from 19/02/2025 22:51 to 20/02/2025 22:51
+********************************************************************************
+
+
+
+============================================================================================
+                                       Broker orders                                        
+============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime fill  filled_price
+34397           MUMMY  dynamic_TF_carry    [20250600] 2025-02-20 02:03:45  [1]         668.0
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+34397           MUMMY  dynamic_TF_carry       2025-02-19 00:00:00  2025-02-20 02:02:08.557000  2025-02-20 02:03:45              93728.557              96.443
+
+
+==========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                 
+==========================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
+34397           MUMMY  dynamic_TF_carry   [1]                  669.0               None     669.0      670.0         668.0       668.0        668.0   0.0    -1.0       2.0          0.0                 NaN           1.0
+
+
+============================================================================================================================================================
+                                                    Slippage (normalised by annual vol, BP of annual SR)                                                    
+============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+34397           MUMMY  dynamic_TF_carry   [1]       141.72807       0.0  -70.557653    141.115306              0.0                     NaN         70.557653
+
+
+=======================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                      
+=======================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+34397           MUMMY  dynamic_TF_carry   [1]               5.2947        0.0      -5.2947        10.5894               0.0                      NaN             5.2947
+
+delay_cash Sum
+                                 delay_cash
+strategy_name    instrument_code           
+dynamic_TF_carry MUMMY                  0.0
+delay_cash Total Sum
+                 delay_cash
+strategy_name              
+dynamic_TF_carry        0.0
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry MUMMY                -5.2947
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry      -5.2947
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry MUMMY                  10.5894
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry        10.5894
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry MUMMY                         0.0
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry               0.0
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry MUMMY                                  0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry MUMMY                       5.2947
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry             5.2947
+
+********************************************************************************
+                                 END OF REPORT                                  
+********************************************************************************
+
+

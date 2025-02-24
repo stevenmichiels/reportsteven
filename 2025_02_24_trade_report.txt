@@ -1,0 +1,110 @@
+
+********************************************************************************
+Trades report produced on 24/02/2025 22:51 from 23/02/2025 22:51 to 24/02/2025 22:51
+********************************************************************************
+
+
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+34411        MSCISING  dynamic_TF_carry    [20250200] 2025-02-24 02:02:31  [-1]        397.15
+34412        MSCISING  dynamic_TF_carry    [20250200] 2025-02-24 02:02:38  [-1]        397.10
+34413        MSCISING  dynamic_TF_carry    [20250200] 2025-02-24 02:02:43  [-1]        397.05
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+34411        MSCISING  dynamic_TF_carry       2025-02-21 05:00:00  2025-02-24 02:02:09.696000  2025-02-24 02:02:31             248529.696              21.304
+34412        MSCISING  dynamic_TF_carry       2025-02-21 05:00:00  2025-02-24 02:02:35.774000  2025-02-24 02:02:38             248555.774               2.226
+34413        MSCISING  dynamic_TF_carry       2025-02-21 05:00:00  2025-02-24 02:02:42.736000  2025-02-24 02:02:43             248562.736               0.264
+
+
+===========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                  
+===========================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+34411        MSCISING  dynamic_TF_carry  [-1]                 399.25               None   397.225      397.2        397.25      397.25       397.15 -2.025  -0.025     -0.05         -0.1                 NaN        -0.075
+34412        MSCISING  dynamic_TF_carry  [-1]                 399.25               None   397.175     397.15         397.2       397.2        397.1 -2.075  -0.025     -0.05         -0.1                 NaN        -0.075
+34413        MSCISING  dynamic_TF_carry  [-1]                 399.25               None   397.125      397.1        397.15      397.15       397.05 -2.125  -0.025     -0.05         -0.1                 NaN        -0.075
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+34411        MSCISING  dynamic_TF_carry  [-1]       45.892173  -441.25171   -5.447552    -10.895104       -21.790208                     NaN        -16.342656
+34412        MSCISING  dynamic_TF_carry  [-1]       45.892173 -452.146814   -5.447552    -10.895104       -21.790208                     NaN        -16.342656
+34413        MSCISING  dynamic_TF_carry  [-1]       45.892173 -463.041918   -5.447552    -10.895104       -21.790208                     NaN        -16.342656
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+34411        MSCISING  dynamic_TF_carry  [-1]            59.136809 -119.752039     -1.47842       -2.95684         -5.913681                      NaN          -4.435261
+34412        MSCISING  dynamic_TF_carry  [-1]            59.136809 -122.708879     -1.47842       -2.95684         -5.913681                      NaN          -4.435261
+34413        MSCISING  dynamic_TF_carry  [-1]            59.136809 -125.665719     -1.47842       -2.95684         -5.913681                      NaN          -4.435261
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry MSCISING        -368.126637
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -368.126637
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry MSCISING           -4.435261
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry    -4.435261
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry MSCISING             -8.870521
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry      -8.870521
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry MSCISING               -17.741043
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry        -17.741043
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry MSCISING                               0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry MSCISING                -13.305782
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry         -13.305782
+
+********************************************************************************
+                                 END OF REPORT                                  
+********************************************************************************
+
+

@@ -1,0 +1,133 @@
+
+********************************************************************************
+Trades report produced on 06/03/2025 22:51 from 05/03/2025 22:51 to 06/03/2025 22:51
+********************************************************************************
+
+
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+34458             DOW  dynamic_TF_carry    [20250300] 2025-03-06 15:00:28   [1]    42535.0000
+34456       EUR_micro  dynamic_TF_carry    [20250600] 2025-03-06 15:00:24   [1]        1.0897
+34455             GBP  dynamic_TF_carry    [20250600] 2025-03-06 15:00:04   [1]        1.2899
+34457         RUSSELL  dynamic_TF_carry    [20250300] 2025-03-06 15:00:26  [-1]     2068.4000
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+34455             GBP  dynamic_TF_carry       2025-03-05 00:00:00  2025-03-06 15:00:03.917000  2025-03-06 15:00:04             140403.917               0.083
+34456       EUR_micro  dynamic_TF_carry       2025-03-05 00:00:00  2025-03-06 15:00:05.511000  2025-03-06 15:00:24             140405.511              18.489
+34457         RUSSELL  dynamic_TF_carry       2025-03-05 00:00:00  2025-03-06 15:00:25.896000  2025-03-06 15:00:26             140425.896               0.104
+34458             DOW  dynamic_TF_carry       2025-03-05 00:00:00  2025-03-06 15:00:28.026000  2025-03-06 15:00:28             140428.026                 NaN
+
+
+==============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                   
+==============================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price    delay  bid_ask execution versus_limit versus_parent_limit total_trading
+34455             GBP  dynamic_TF_carry   [1]                 1.2895               None    1.2898     1.2899        1.2897         NaN       1.2899  -0.0003  -0.0001       0.0          NaN                 NaN       -0.0001
+34456       EUR_micro  dynamic_TF_carry   [1]                 1.0851               None   1.08955     1.0898        1.0893      1.0893       1.0897 -0.00445 -0.00025    0.0001      -0.0004                 NaN      -0.00015
+34457         RUSSELL  dynamic_TF_carry  [-1]                 2104.7               None   2068.75     2068.7        2068.8      2068.8       2068.4   -35.95    -0.05      -0.3         -0.4                 NaN         -0.35
+34458             DOW  dynamic_TF_carry   [1]                43076.0               None   42534.0    42535.0       42533.0     42533.0      42535.0    542.0     -1.0       0.0         -2.0                 NaN          -1.0
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+34455             GBP  dynamic_TF_carry   [1]        0.094779   -31.652654  -10.550885           0.0              NaN                     NaN        -10.550885
+34456       EUR_micro  dynamic_TF_carry   [1]        0.099604   -446.76946  -25.099408     10.039763       -40.159053                     NaN        -15.059645
+34457         RUSSELL  dynamic_TF_carry  [-1]      381.530169  -942.258382   -1.310512     -7.863074       -10.484099                     NaN         -9.173586
+34458             DOW  dynamic_TF_carry   [1]     5213.941266  1039.520724   -1.917935           0.0         -3.83587                     NaN         -1.917935
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+34455             GBP  dynamic_TF_carry   [1]         48448.861258  -14.534658    -4.844886            0.0               NaN                      NaN          -4.844886
+34456       EUR_micro  dynamic_TF_carry   [1]          9689.772252  -43.119487    -2.422443       0.968977         -3.875909                      NaN          -1.453466
+34457         RUSSELL  dynamic_TF_carry  [-1]             3.875909 -139.338925    -0.193795      -1.162773         -1.550364                      NaN          -1.356568
+34458             DOW  dynamic_TF_carry   [1]             0.387591  210.074262    -0.387591            0.0         -0.775182                      NaN          -0.387591
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry DOW              210.074262
+                 EUR_micro        -43.119487
+                 GBP              -14.534658
+                 RUSSELL         -139.338925
+delay_cash Total Sum
+                 delay_cash
+strategy_name              
+dynamic_TF_carry  13.081193
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry DOW                -0.387591
+                 EUR_micro          -2.422443
+                 GBP                -4.844886
+                 RUSSELL            -0.193795
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry    -7.848716
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry DOW                        0.0
+                 EUR_micro             0.968977
+                 GBP                        0.0
+                 RUSSELL              -1.162773
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry      -0.193795
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry DOW                     -0.775182
+                 EUR_micro               -3.875909
+                 GBP                             0
+                 RUSSELL                 -1.550364
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry         -6.201454
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry DOW                                    0
+                 EUR_micro                              0
+                 GBP                                    0
+                 RUSSELL                                0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry DOW                      -0.387591
+                 EUR_micro                -1.453466
+                 GBP                      -4.844886
+                 RUSSELL                  -1.356568
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry          -8.042511
+
+********************************************************************************
+                                 END OF REPORT                                  
+********************************************************************************
+
+

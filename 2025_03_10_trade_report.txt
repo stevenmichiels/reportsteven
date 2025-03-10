@@ -1,0 +1,111 @@
+
+********************************************************************************
+Trades report produced on 10/03/2025 22:50 from 09/03/2025 22:50 to 10/03/2025 22:50
+********************************************************************************
+
+
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+34470             DOW  dynamic_TF_carry    [20250600] 2025-03-10 15:00:04  [-1]    42833.0000
+34469             NZD  dynamic_TF_carry    [20250600] 2025-03-10 15:00:02  [-1]        0.5742
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+34469             NZD  dynamic_TF_carry       2025-03-07 00:00:00  2025-03-10 15:00:02.316000  2025-03-10 15:00:02             313202.316                 NaN
+34470             DOW  dynamic_TF_carry       2025-03-07 00:00:00  2025-03-10 15:00:04.398000  2025-03-10 15:00:04             313204.398                 NaN
+
+
+============================================================================================================================================================================================================================
+                                                                                                  Slippage (ticks per lot)                                                                                                  
+============================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay  bid_ask execution versus_limit versus_parent_limit total_trading
+34469             NZD  dynamic_TF_carry  [-1]                0.57215               None   0.57415     0.5741        0.5742      0.5742       0.5742  0.002 -0.00005    0.0001         -0.0                 NaN       0.00005
+34470             DOW  dynamic_TF_carry  [-1]                43182.0               None   42838.5    42835.0       42842.0     42842.0      42833.0 -343.5     -3.5      -2.0         -9.0                 NaN          -5.5
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+34469             NZD  dynamic_TF_carry  [-1]        0.058974  339.130848   -8.478271     16.956542             -0.0                     NaN          8.478271
+34470             DOW  dynamic_TF_carry  [-1]       5471.8283 -627.760926     -6.3964     -3.655085       -16.447885                     NaN        -10.051485
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+34469             NZD  dynamic_TF_carry  [-1]         77437.140401  154.874281    -3.871857       7.743714              -0.0                      NaN           3.871857
+34470             DOW  dynamic_TF_carry  [-1]             0.387186 -132.998289     -1.35515      -0.774371         -3.484671                      NaN          -2.129521
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry DOW             -132.998289
+                 NZD              154.874281
+delay_cash Total Sum
+                 delay_cash
+strategy_name              
+dynamic_TF_carry  21.875992
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry DOW                 -1.35515
+                 NZD                -3.871857
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry    -5.227007
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry DOW                  -0.774371
+                 NZD                   7.743714
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry       6.969343
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry DOW                     -3.484671
+                 NZD                          -0.0
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry         -3.484671
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry DOW                                    0
+                 NZD                                    0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry DOW                      -2.129521
+                 NZD                       3.871857
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry           1.742336
+
+********************************************************************************
+                                 END OF REPORT                                  
+********************************************************************************
+
+

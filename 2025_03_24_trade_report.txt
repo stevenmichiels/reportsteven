@@ -1,0 +1,111 @@
+
+********************************************************************************
+Trades report produced on 24/03/2025 22:50 from 23/03/2025 22:50 to 24/03/2025 22:50
+********************************************************************************
+
+
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+34499      BRENT-LAST  dynamic_TF_carry    [20250600] 2025-03-24 14:00:08   [1]         71.98
+34500         FEEDCOW  dynamic_TF_carry    [20250500] 2025-03-24 15:30:07  [-1]        286.75
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+34499      BRENT-LAST  dynamic_TF_carry       2025-03-21 20:00:00  2025-03-24 14:00:07.552000  2025-03-24 14:00:08             237607.552               0.448
+34500         FEEDCOW  dynamic_TF_carry       2025-03-21 18:00:00  2025-03-24 15:30:05.280000  2025-03-24 15:30:07              250205.28                1.72
+
+
+==========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                 
+==========================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
+34499      BRENT-LAST  dynamic_TF_carry   [1]                  71.58               None     71.97      71.98         71.96         NaN        71.98 -0.39   -0.01       0.0          NaN                 NaN         -0.01
+34500         FEEDCOW  dynamic_TF_carry  [-1]                285.625               None   286.825    286.775       286.875     286.875       286.75   1.2   -0.05    -0.025       -0.125                 NaN        -0.075
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+34499      BRENT-LAST  dynamic_TF_carry   [1]       16.119863 -241.937545   -6.203527           0.0              NaN                     NaN         -6.203527
+34500         FEEDCOW  dynamic_TF_carry  [-1]       35.861228  334.623228  -13.942635     -6.971317       -34.856586                     NaN        -20.913952
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+34499      BRENT-LAST  dynamic_TF_carry   [1]           772.519921 -301.282769    -7.725199            0.0               NaN                      NaN          -7.725199
+34500         FEEDCOW  dynamic_TF_carry  [-1]           386.259961  463.511953   -19.312998      -9.656499        -48.282495                      NaN         -28.969497
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry BRENT-LAST      -301.282769
+                 FEEDCOW          463.511953
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry  162.229183
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry BRENT-LAST         -7.725199
+                 FEEDCOW           -19.312998
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry   -27.038197
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry BRENT-LAST                 0.0
+                 FEEDCOW              -9.656499
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry      -9.656499
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry BRENT-LAST                      0
+                 FEEDCOW                -48.282495
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry        -48.282495
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry BRENT-LAST                             0
+                 FEEDCOW                                0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry BRENT-LAST               -7.725199
+                 FEEDCOW                 -28.969497
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry         -36.694696
+
+********************************************************************************
+                                 END OF REPORT                                  
+********************************************************************************
+
+

@@ -1,0 +1,122 @@
+
+********************************************************************************
+Trades report produced on 26/03/2025 22:50 from 25/03/2025 22:50 to 26/03/2025 22:50
+********************************************************************************
+
+
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+34515        MSCISING  dynamic_TF_carry    [20250400] 2025-03-26 02:01:21   [1]        397.55
+34514          NIKKEI  dynamic_TF_carry    [20250600] 2025-03-26 02:00:29   [1]      37690.00
+34516           TOPIX  dynamic_TF_carry    [20250600] 2025-03-26 02:04:01  [-1]       2775.50
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+34514          NIKKEI  dynamic_TF_carry       2025-03-25 00:00:00  2025-03-26 02:00:28.910000  2025-03-26 02:00:29               93628.91                0.09
+34515        MSCISING  dynamic_TF_carry       2025-03-25 00:00:00  2025-03-26 02:00:32.441000  2025-03-26 02:01:21              93632.441              48.559
+34516           TOPIX  dynamic_TF_carry       2025-03-25 00:00:00  2025-03-26 02:03:40.777000  2025-03-26 02:04:01              93820.777              20.223
+
+
+===========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                  
+===========================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+34514          NIKKEI  dynamic_TF_carry   [1]                37515.0               None   37692.5    37695.0       37690.0     37690.0      37690.0 -177.5    -2.5       5.0          0.0                 NaN           2.5
+34515        MSCISING  dynamic_TF_carry   [1]                  397.8               None   397.575      397.6        397.55      397.55       397.55  0.225  -0.025      0.05          0.0                 NaN         0.025
+34516           TOPIX  dynamic_TF_carry  [-1]                2770.25               None  2775.875    2775.75        2776.0      2776.0       2775.5  5.625  -0.125     -0.25         -0.5                 NaN        -0.375
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+34514          NIKKEI  dynamic_TF_carry   [1]     6178.034293 -287.308214   -4.046595      8.093189              0.0                     NaN          4.046595
+34515        MSCISING  dynamic_TF_carry   [1]       60.797511   37.008094    -4.11201      8.224021              0.0                     NaN           4.11201
+34516           TOPIX  dynamic_TF_carry  [-1]      333.859022  168.484289   -3.744095     -7.488191       -14.976381                     NaN        -11.232286
+
+
+=======================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                      
+=======================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+34514          NIKKEI  dynamic_TF_carry   [1]             0.513998 -91.234634    -1.284995        2.56999               0.0                      NaN           1.284995
+34515        MSCISING  dynamic_TF_carry   [1]            57.790987  13.002972    -1.444775       2.889549               0.0                      NaN           1.444775
+34516           TOPIX  dynamic_TF_carry  [-1]             5.139979  28.912384    -0.642497      -1.284995          -2.56999                      NaN          -1.927492
+
+delay_cash Sum
+                                 delay_cash
+strategy_name    instrument_code           
+dynamic_TF_carry MSCISING         13.002972
+                 NIKKEI          -91.234634
+                 TOPIX            28.912384
+delay_cash Total Sum
+                 delay_cash
+strategy_name              
+dynamic_TF_carry -49.319278
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry MSCISING           -1.444775
+                 NIKKEI             -1.284995
+                 TOPIX              -0.642497
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry    -3.372267
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry MSCISING              2.889549
+                 NIKKEI                 2.56999
+                 TOPIX                -1.284995
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry       4.174544
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry MSCISING                      0.0
+                 NIKKEI                        0.0
+                 TOPIX                    -2.56999
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry          -2.56999
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry MSCISING                               0
+                 NIKKEI                                 0
+                 TOPIX                                  0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry MSCISING                  1.444775
+                 NIKKEI                    1.284995
+                 TOPIX                    -1.927492
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry           0.802277
+
+********************************************************************************
+                                 END OF REPORT                                  
+********************************************************************************
+
+

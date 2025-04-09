@@ -1,0 +1,155 @@
+
+********************************************************************************
+Trades report produced on 09/04/2025 22:51 from 08/04/2025 22:51 to 09/04/2025 22:51
+********************************************************************************
+
+
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+34567          KOSDAQ  dynamic_TF_carry    [20250600] 2025-04-09 02:02:15   [1]       1076.00
+34566            KR10  dynamic_TF_carry    [20250600] 2025-04-09 02:00:35   [1]        119.76
+34570    NASDAQ_micro  dynamic_TF_carry    [20250600] 2025-04-09 15:00:04   [1]      17468.50
+34571         RUSSELL  dynamic_TF_carry    [20250600] 2025-04-09 15:00:06   [1]       1779.40
+34568          SPI200  dynamic_TF_carry    [20250600] 2025-04-09 02:02:16  [-1]       7420.00
+34569         SUGAR11  dynamic_TF_carry    [20251000] 2025-04-09 14:00:04  [-1]         18.11
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+34566            KR10  dynamic_TF_carry       2025-04-08 00:00:00  2025-04-09 02:00:29.241000  2025-04-09 02:00:35              93629.241               5.759
+34567          KOSDAQ  dynamic_TF_carry       2025-04-08 00:00:00  2025-04-09 02:02:14.750000  2025-04-09 02:02:15               93734.75                0.25
+34568          SPI200  dynamic_TF_carry       2025-04-08 00:00:00  2025-04-09 02:02:16.406000  2025-04-09 02:02:16              93736.406                 NaN
+34569         SUGAR11  dynamic_TF_carry       2025-04-08 00:00:00  2025-04-09 14:00:04.576000  2025-04-09 14:00:04             136804.576                 NaN
+34570    NASDAQ_micro  dynamic_TF_carry       2025-04-08 00:00:00  2025-04-09 15:00:04.126000  2025-04-09 15:00:04             140404.126                 NaN
+34571         RUSSELL  dynamic_TF_carry       2025-04-08 00:00:00  2025-04-09 15:00:05.614000  2025-04-09 15:00:06             140405.614               0.386
+
+
+==============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                   
+==============================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price  mid_price side_price offside_price limit_price filled_price    delay bid_ask execution versus_limit versus_parent_limit total_trading
+34566            KR10  dynamic_TF_carry   [1]                 119.98               None    119.765     119.77        119.76      119.76       119.76    0.215  -0.005      0.01          0.0                 NaN         0.005
+34567          KOSDAQ  dynamic_TF_carry   [1]                 1099.5               None     1076.1     1076.2        1076.0      1076.0       1076.0     23.4    -0.1       0.2          0.0                 NaN           0.1
+34568          SPI200  dynamic_TF_carry  [-1]                 7470.0               None     7411.5     7411.0        7412.0      7412.0       7420.0    -58.5    -0.5       9.0          8.0                 NaN           8.5
+34569         SUGAR11  dynamic_TF_carry  [-1]                  18.32               None       18.1      18.09         18.11       18.11        18.11    -0.22   -0.01      0.02         -0.0                 NaN          0.01
+34570    NASDAQ_micro  dynamic_TF_carry   [1]               17328.25               None  17476.375    17477.5      17475.25    17475.25      17468.5 -148.125  -1.125       9.0         6.75                 NaN         7.875
+34571         RUSSELL  dynamic_TF_carry   [1]                 1774.8               None    1777.15     1777.3        1777.0      1777.0       1779.4    -2.35   -0.15      -2.1         -2.4                 NaN         -2.25
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+34566            KR10  dynamic_TF_carry   [1]        6.513753  330.070867   -7.676067     15.352133              0.0                     NaN          7.676067
+34567          KOSDAQ  dynamic_TF_carry   [1]      424.560967  551.157592   -2.355374      4.710749              0.0                     NaN          2.355374
+34568          SPI200  dynamic_TF_carry  [-1]     1553.431539 -376.585633   -3.218681     57.936251         51.49889                     NaN         54.717571
+34569         SUGAR11  dynamic_TF_carry  [-1]        5.105212 -430.932142  -19.587825     39.175649             -0.0                     NaN         19.587825
+34570    NASDAQ_micro  dynamic_TF_carry   [1]     7349.844097 -201.534887   -1.530645     12.245158         9.183868                     NaN         10.714513
+34571         RUSSELL  dynamic_TF_carry   [1]      659.063991  -35.656629   -2.275955     -31.86337        -36.41528                     NaN        -34.139325
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+34566            KR10  dynamic_TF_carry   [1]           527.699348   113.45536    -2.638497       5.276993               0.0                      NaN           2.638497
+34567          KOSDAQ  dynamic_TF_carry   [1]             5.276993  123.481647    -0.527699       1.055399               0.0                      NaN           0.527699
+34568          SPI200  dynamic_TF_carry  [-1]             11.63616 -680.715364     -5.81808     104.725441          93.08928                      NaN          98.907361
+34569         SUGAR11  dynamic_TF_carry  [-1]           872.359069 -191.918995    -8.723591      17.447181              -0.0                      NaN           8.723591
+34570    NASDAQ_micro  dynamic_TF_carry   [1]             1.557784 -230.746763    -1.752507      14.020056         10.515042                      NaN          12.267549
+34571         RUSSELL  dynamic_TF_carry   [1]              3.89446   -9.151981    -0.584169      -8.178366         -9.346704                      NaN          -8.762535
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry KOSDAQ           123.481647
+                 KR10              113.45536
+                 NASDAQ_micro    -230.746763
+                 RUSSELL           -9.151981
+                 SPI200          -680.715364
+                 SUGAR11         -191.918995
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -875.596096
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry KOSDAQ             -0.527699
+                 KR10               -2.638497
+                 NASDAQ_micro       -1.752507
+                 RUSSELL            -0.584169
+                 SPI200              -5.81808
+                 SUGAR11            -8.723591
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry   -20.044543
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry KOSDAQ                1.055399
+                 KR10                  5.276993
+                 NASDAQ_micro         14.020056
+                 RUSSELL              -8.178366
+                 SPI200              104.725441
+                 SUGAR11              17.447181
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry     134.346704
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry KOSDAQ                        0.0
+                 KR10                          0.0
+                 NASDAQ_micro            10.515042
+                 RUSSELL                 -9.346704
+                 SPI200                   93.08928
+                 SUGAR11                      -0.0
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry         94.257619
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry KOSDAQ                                 0
+                 KR10                                   0
+                 NASDAQ_micro                           0
+                 RUSSELL                                0
+                 SPI200                                 0
+                 SUGAR11                                0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry KOSDAQ                    0.527699
+                 KR10                      2.638497
+                 NASDAQ_micro             12.267549
+                 RUSSELL                  -8.762535
+                 SPI200                   98.907361
+                 SUGAR11                   8.723591
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry         114.302161
+
+********************************************************************************
+                                 END OF REPORT                                  
+********************************************************************************
+
+

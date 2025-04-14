@@ -1,0 +1,100 @@
+
+********************************************************************************
+Trades report produced on 14/04/2025 22:50 from 13/04/2025 22:50 to 14/04/2025 22:50
+********************************************************************************
+
+
+
+============================================================================================
+                                       Broker orders                                        
+============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime fill  filled_price
+34605      BRENT-LAST  dynamic_TF_carry    [20250700] 2025-04-14 14:00:09  [1]         64.72
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+34605      BRENT-LAST  dynamic_TF_carry       2025-04-11 20:00:00  2025-04-14 14:00:08.918000  2025-04-14 14:00:09             237608.918               0.082
+
+
+===========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                  
+===========================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+34605      BRENT-LAST  dynamic_TF_carry   [1]                  64.13               None    64.725      64.73         64.72       64.72        64.72 -0.595  -0.005      0.01          0.0                 NaN         0.005
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+34605      BRENT-LAST  dynamic_TF_carry   [1]       26.202875 -227.074318   -1.908188      3.816375              0.0                     NaN          1.908188
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+34605      BRENT-LAST  dynamic_TF_carry   [1]           761.945399 -453.357512    -3.809727       7.619454               0.0                      NaN           3.809727
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry BRENT-LAST      -453.357512
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -453.357512
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry BRENT-LAST         -3.809727
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry    -3.809727
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry BRENT-LAST            7.619454
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry       7.619454
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry BRENT-LAST                    0.0
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry               0.0
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry BRENT-LAST                             0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry BRENT-LAST                3.809727
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry           3.809727
+
+********************************************************************************
+                                 END OF REPORT                                  
+********************************************************************************
+
+

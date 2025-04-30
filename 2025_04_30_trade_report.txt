@@ -1,0 +1,111 @@
+
+********************************************************************************
+Trades report produced on 30/04/2025 22:51 from 29/04/2025 22:51 to 30/04/2025 22:51
+********************************************************************************
+
+
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+34660   CRUDE_W_micro  dynamic_TF_carry    [20250800] 2025-04-30 14:00:11  [-1]         58.52
+34659             V2X  dynamic_TF_carry    [20250800] 2025-04-30 08:01:40  [-1]         21.30
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+34659             V2X  dynamic_TF_carry       2025-04-29 00:00:00  2025-04-30 08:00:09.157000  2025-04-30 08:01:40             115209.157              90.843
+34660   CRUDE_W_micro  dynamic_TF_carry       2025-04-29 00:00:00  2025-04-30 14:00:07.175000  2025-04-30 14:00:11             136807.175               3.825
+
+
+===========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                  
+===========================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+34659             V2X  dynamic_TF_carry  [-1]                   21.6               None     21.35       21.3          21.4        21.4         21.3  -0.25   -0.05      -0.0         -0.1                 NaN         -0.05
+34660   CRUDE_W_micro  dynamic_TF_carry  [-1]                  59.34               None    58.505      58.49         58.52       58.52        58.52 -0.835  -0.015      0.03         -0.0                 NaN         0.015
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+34659             V2X  dynamic_TF_carry  [-1]       12.566003 -198.949501    -39.7899          -0.0         -79.5798                     NaN          -39.7899
+34660   CRUDE_W_micro  dynamic_TF_carry  [-1]         23.6098 -353.666698   -6.353294     12.706588             -0.0                     NaN          6.353294
+
+
+=======================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                      
+=======================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+34659             V2X  dynamic_TF_carry  [-1]            84.950815 -21.237704    -4.247541           -0.0         -8.495082                      NaN          -4.247541
+34660   CRUDE_W_micro  dynamic_TF_carry  [-1]            74.635777 -62.320874    -1.119537       2.239073              -0.0                      NaN           1.119537
+
+delay_cash Sum
+                                 delay_cash
+strategy_name    instrument_code           
+dynamic_TF_carry CRUDE_W_micro   -62.320874
+                 V2X             -21.237704
+delay_cash Total Sum
+                 delay_cash
+strategy_name              
+dynamic_TF_carry -83.558578
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry CRUDE_W_micro      -1.119537
+                 V2X                -4.247541
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry    -5.367077
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry CRUDE_W_micro         2.239073
+                 V2X                       -0.0
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry       2.239073
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry CRUDE_W_micro                -0.0
+                 V2X                     -8.495082
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry         -8.495082
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry CRUDE_W_micro                          0
+                 V2X                                    0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry CRUDE_W_micro             1.119537
+                 V2X                      -4.247541
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry          -3.128004
+
+********************************************************************************
+                                 END OF REPORT                                  
+********************************************************************************
+
+

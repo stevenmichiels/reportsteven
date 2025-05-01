@@ -1,0 +1,122 @@
+
+********************************************************************************
+Trades report produced on 01/05/2025 22:51 from 30/04/2025 22:51 to 01/05/2025 22:51
+********************************************************************************
+
+
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+34662   CRUDE_W_micro  dynamic_TF_carry    [20250800] 2025-05-01 14:00:11  [-1]         56.65
+34663             DOW  dynamic_TF_carry    [20250600] 2025-05-01 15:00:02   [1]      41027.00
+34661              DX  dynamic_TF_carry    [20250600] 2025-05-01 14:00:04  [-1]         99.72
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+34661              DX  dynamic_TF_carry       2025-04-30 00:00:00  2025-05-01 14:00:03.420000  2025-05-01 14:00:04              136803.42                0.58
+34662   CRUDE_W_micro  dynamic_TF_carry       2025-04-30 00:00:00  2025-05-01 14:00:09.231000  2025-05-01 14:00:11             136809.231               1.769
+34663             DOW  dynamic_TF_carry       2025-04-30 00:00:00  2025-05-01 15:00:01.793000  2025-05-01 15:00:02             140401.793               0.207
+
+
+============================================================================================================================================================================================================================
+                                                                                                  Slippage (ticks per lot)                                                                                                  
+============================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
+34661              DX  dynamic_TF_carry  [-1]                  99.26               None   99.6975     99.695          99.7        99.7        99.72  0.4375 -0.0025     0.025         0.02                 NaN        0.0225
+34662   CRUDE_W_micro  dynamic_TF_carry  [-1]                  57.09               None    56.675      56.66         56.69       56.69        56.65  -0.415  -0.015     -0.01        -0.04                 NaN        -0.025
+34663             DOW  dynamic_TF_carry   [1]                40481.0               None   41002.5    41029.0       40976.0     40976.0      41027.0  -521.5   -26.5       2.0        -51.0                 NaN         -24.5
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+34661              DX  dynamic_TF_carry  [-1]        8.754897  499.720323   -2.855545     28.555447        22.844358                     NaN         25.699902
+34662   CRUDE_W_micro  dynamic_TF_carry  [-1]       23.290368 -178.185246   -6.440431      -4.29362       -17.174482                     NaN        -10.734051
+34663             DOW  dynamic_TF_carry   [1]    10233.818266 -509.584973  -25.894538      1.954305       -49.834772                     NaN        -23.940234
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+34661              DX  dynamic_TF_carry  [-1]           752.629499  329.275406    -1.881574      18.815737          15.05259                      NaN          16.934164
+34662   CRUDE_W_micro  dynamic_TF_carry  [-1]             75.26295  -31.234124    -1.128944      -0.752629         -3.010518                      NaN          -1.881574
+34663             DOW  dynamic_TF_carry   [1]             0.376315 -196.248142    -9.972341       0.752629        -19.192052                      NaN          -9.219711
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry CRUDE_W_micro    -31.234124
+                 DOW             -196.248142
+                 DX               329.275406
+delay_cash Total Sum
+                 delay_cash
+strategy_name              
+dynamic_TF_carry  101.79314
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry CRUDE_W_micro      -1.128944
+                 DOW                -9.972341
+                 DX                 -1.881574
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry   -12.982859
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry CRUDE_W_micro        -0.752629
+                 DOW                   0.752629
+                 DX                   18.815737
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry      18.815737
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry CRUDE_W_micro           -3.010518
+                 DOW                    -19.192052
+                 DX                       15.05259
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry          -7.14998
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry CRUDE_W_micro                          0
+                 DOW                                    0
+                 DX                                     0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry CRUDE_W_micro            -1.881574
+                 DOW                      -9.219711
+                 DX                       16.934164
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry           5.832879
+
+********************************************************************************
+                                 END OF REPORT                                  
+********************************************************************************
+
+

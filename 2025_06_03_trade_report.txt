@@ -1,0 +1,136 @@
+
+********************************************************************************
+Trades report produced on 03/06/2025 22:50 from 02/06/2025 22:50 to 03/06/2025 22:50
+********************************************************************************
+
+
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+34747             BTP  dynamic_TF_carry    [20250600] 2025-06-03 08:00:22  [-1]        121.31
+34741           MUMMY  dynamic_TF_carry    [20250600] 2025-06-03 02:02:09  [-1]        749.00
+34742           MUMMY  dynamic_TF_carry    [20250600] 2025-06-03 02:02:14  [-1]        749.00
+34743           MUMMY  dynamic_TF_carry    [20250600] 2025-06-03 02:02:58  [-1]        749.00
+34744           MUMMY  dynamic_TF_carry    [20250600] 2025-06-03 02:03:27  [-1]        748.00
+34745           MUMMY  dynamic_TF_carry    [20250600] 2025-06-03 02:03:46  [-1]        748.00
+34746           MUMMY  dynamic_TF_carry    [20250600] 2025-06-03 02:08:51  [-1]        749.00
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+34741           MUMMY  dynamic_TF_carry       2025-06-02 04:00:00  2025-06-03 02:02:04.308000  2025-06-03 02:02:09              79324.308               4.692
+34742           MUMMY  dynamic_TF_carry       2025-06-02 04:00:00  2025-06-03 02:02:13.685000  2025-06-03 02:02:14              79333.685               0.315
+34743           MUMMY  dynamic_TF_carry       2025-06-02 04:00:00  2025-06-03 02:02:19.136000  2025-06-03 02:02:58              79339.136              38.864
+34744           MUMMY  dynamic_TF_carry       2025-06-02 04:00:00  2025-06-03 02:03:03.374000  2025-06-03 02:03:27              79383.374              23.626
+34745           MUMMY  dynamic_TF_carry       2025-06-02 04:00:00  2025-06-03 02:03:32.185000  2025-06-03 02:03:46              79412.185              13.815
+34746           MUMMY  dynamic_TF_carry       2025-06-02 04:00:00  2025-06-03 02:03:51.437000  2025-06-03 02:08:51              79431.437             299.563
+34747             BTP  dynamic_TF_carry       2025-06-02 16:00:00  2025-06-03 08:00:05.916000  2025-06-03 08:00:22              57605.916              16.084
+
+
+===========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                  
+===========================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+34741           MUMMY  dynamic_TF_carry  [-1]                  744.0               None     749.5      749.0         750.0       750.0        749.0    5.5    -0.5      -0.0         -1.0                 NaN          -0.5
+34742           MUMMY  dynamic_TF_carry  [-1]                  744.0               None     749.5      749.0         750.0         NaN        749.0    5.5    -0.5      -0.0          NaN                 NaN          -0.5
+34743           MUMMY  dynamic_TF_carry  [-1]                  744.0               None     749.5      749.0         750.0       750.0        749.0    5.5    -0.5      -0.0         -1.0                 NaN          -0.5
+34744           MUMMY  dynamic_TF_carry  [-1]                  744.0               None     749.0      748.0         750.0       750.0        748.0    5.0    -1.0      -0.0         -2.0                 NaN          -1.0
+34745           MUMMY  dynamic_TF_carry  [-1]                  744.0               None     749.0      748.0         750.0       750.0        748.0    5.0    -1.0      -0.0         -2.0                 NaN          -1.0
+34746           MUMMY  dynamic_TF_carry  [-1]                  744.0               None     749.0      748.0         750.0       750.0        749.0    5.0    -1.0       1.0         -1.0                 NaN           0.0
+34747             BTP  dynamic_TF_carry  [-1]                 121.11               None   121.305      121.3        121.31      121.31       121.31  0.195  -0.005      0.01         -0.0                 NaN         0.005
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+34741           MUMMY  dynamic_TF_carry  [-1]      166.730988  329.872692  -29.988427          -0.0       -59.976853                     NaN        -29.988427
+34742           MUMMY  dynamic_TF_carry  [-1]      166.730988  329.872692  -29.988427          -0.0              NaN                     NaN        -29.988427
+34743           MUMMY  dynamic_TF_carry  [-1]      166.730988  329.872692  -29.988427          -0.0       -59.976853                     NaN        -29.988427
+34744           MUMMY  dynamic_TF_carry  [-1]      166.730988  299.884266  -59.976853          -0.0      -119.953706                     NaN        -59.976853
+34745           MUMMY  dynamic_TF_carry  [-1]      166.730988  299.884266  -59.976853          -0.0      -119.953706                     NaN        -59.976853
+34746           MUMMY  dynamic_TF_carry  [-1]      166.730988  299.884266  -59.976853     59.976853       -59.976853                     NaN               0.0
+34747             BTP  dynamic_TF_carry  [-1]        6.292965  309.869853   -7.945381     15.890762             -0.0                     NaN          7.945381
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+34741           MUMMY  dynamic_TF_carry  [-1]             5.171595   28.443774    -2.585798           -0.0         -5.171595                      NaN          -2.585798
+34742           MUMMY  dynamic_TF_carry  [-1]             5.171595   28.443774    -2.585798           -0.0               NaN                      NaN          -2.585798
+34743           MUMMY  dynamic_TF_carry  [-1]             5.171595   28.443774    -2.585798           -0.0         -5.171595                      NaN          -2.585798
+34744           MUMMY  dynamic_TF_carry  [-1]             5.171595   25.857977    -5.171595           -0.0        -10.343191                      NaN          -5.171595
+34745           MUMMY  dynamic_TF_carry  [-1]             5.171595   25.857977    -5.171595           -0.0        -10.343191                      NaN          -5.171595
+34746           MUMMY  dynamic_TF_carry  [-1]             5.171595   25.857977    -5.171595       5.171595         -5.171595                      NaN                0.0
+34747             BTP  dynamic_TF_carry  [-1]           844.612029  164.699346     -4.22306        8.44612              -0.0                      NaN            4.22306
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry BTP              164.699346
+                 MUMMY            162.905254
+delay_cash Total Sum
+                 delay_cash
+strategy_name              
+dynamic_TF_carry   327.6046
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry BTP                 -4.22306
+                 MUMMY             -23.272179
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry   -27.495239
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry BTP                    8.44612
+                 MUMMY                 5.171595
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry      13.617716
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry BTP                          -0.0
+                 MUMMY                  -36.201168
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry        -36.201168
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry BTP                                    0
+                 MUMMY                                  0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry BTP                        4.22306
+                 MUMMY                   -18.100584
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry         -13.877524
+
+********************************************************************************
+                                 END OF REPORT                                  
+********************************************************************************
+
+

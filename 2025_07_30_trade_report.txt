@@ -1,0 +1,155 @@
+
+********************************************************************************
+Trades report produced on 30/07/2025 22:51 from 29/07/2025 22:51 to 30/07/2025 22:51
+********************************************************************************
+
+
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+34897             CAD  dynamic_TF_carry    [20250900] 2025-07-30 15:00:08  [-1]        0.7261
+34896   CRUDE_W_micro  dynamic_TF_carry    [20251000] 2025-07-30 14:00:08   [1]       68.4900
+34893     KRWUSD_mini  dynamic_TF_carry    [20250900] 2025-07-30 02:00:41  [-1]        0.7260
+34898    NASDAQ_micro  dynamic_TF_carry    [20250900] 2025-07-30 15:00:09  [-1]    23484.7500
+34894          NIKKEI  dynamic_TF_carry    [20250900] 2025-07-30 02:02:17  [-1]    40595.0000
+34895          SPI200  dynamic_TF_carry    [20250900] 2025-07-30 02:03:03   [1]     8680.0000
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+34893     KRWUSD_mini  dynamic_TF_carry       2025-07-29 00:00:00  2025-07-30 02:00:32.400000  2025-07-30 02:00:41                93632.4                 8.6
+34894          NIKKEI  dynamic_TF_carry       2025-07-29 00:00:00  2025-07-30 02:02:15.177000  2025-07-30 02:02:17              93735.177               1.823
+34895          SPI200  dynamic_TF_carry       2025-07-29 00:00:00  2025-07-30 02:02:18.515000  2025-07-30 02:03:03              93738.515              44.485
+34896   CRUDE_W_micro  dynamic_TF_carry       2025-07-29 00:00:00  2025-07-30 14:00:07.867000  2025-07-30 14:00:08             136807.867               0.133
+34897             CAD  dynamic_TF_carry       2025-07-29 00:00:00  2025-07-30 15:00:05.560000  2025-07-30 15:00:08              140405.56                2.44
+34898    NASDAQ_micro  dynamic_TF_carry       2025-07-29 00:00:00  2025-07-30 15:00:09.705000  2025-07-30 15:00:09             140409.705                 NaN
+
+
+=============================================================================================================================================================================================================================
+                                                                                                  Slippage (ticks per lot)                                                                                                   
+=============================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay  bid_ask execution versus_limit versus_parent_limit total_trading
+34893     KRWUSD_mini  dynamic_TF_carry  [-1]                 0.7204               None     0.726     0.7259        0.7261      0.7261        0.726  0.0056  -0.0001    0.0001      -0.0001                 NaN           0.0
+34894          NIKKEI  dynamic_TF_carry  [-1]                40655.0               None   40592.5    40590.0       40595.0     40595.0      40595.0   -62.5     -2.5       5.0         -0.0                 NaN           2.5
+34895          SPI200  dynamic_TF_carry   [1]                 8637.0               None    8677.5     8678.0        8677.0      8677.0       8680.0   -40.5     -0.5      -2.0         -3.0                 NaN          -2.5
+34896   CRUDE_W_micro  dynamic_TF_carry   [1]                  68.44               None      68.5      68.51         68.49       68.49        68.49   -0.06    -0.01      0.02          0.0                 NaN          0.01
+34897             CAD  dynamic_TF_carry  [-1]                0.72815               None   0.72615     0.7261        0.7262      0.7262       0.7261  -0.002 -0.00005      -0.0      -0.0001                 NaN      -0.00005
+34898    NASDAQ_micro  dynamic_TF_carry  [-1]               23480.25               None   23484.5   23484.25      23484.75    23484.75     23484.75    4.25    -0.25       0.5         -0.0                 NaN          0.25
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+34893     KRWUSD_mini  dynamic_TF_carry  [-1]        0.070849  790.416767  -14.114585     14.114585       -14.114585                     NaN               0.0
+34894          NIKKEI  dynamic_TF_carry  [-1]     7510.960793  -83.211724   -3.328469      6.656938             -0.0                     NaN          3.328469
+34895          SPI200  dynamic_TF_carry   [1]      782.716814 -517.428517   -6.388006    -25.552026       -38.328038                     NaN        -31.940032
+34896   CRUDE_W_micro  dynamic_TF_carry   [1]       21.517072  -27.884835   -4.647472      9.294945              0.0                     NaN          4.647472
+34897             CAD  dynamic_TF_carry  [-1]        0.040273 -496.607838  -12.415196          -0.0       -24.830392                     NaN        -12.415196
+34898    NASDAQ_micro  dynamic_TF_carry  [-1]     2883.043642   14.741365   -0.867139      1.734278             -0.0                     NaN          0.867139
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+34893     KRWUSD_mini  dynamic_TF_carry  [-1]         18728.415501  104.879127    -1.872842       1.872842         -1.872842                      NaN                0.0
+34894          NIKKEI  dynamic_TF_carry  [-1]             0.506006  -31.625366    -1.265015       2.530029              -0.0                      NaN           1.265015
+34895          SPI200  dynamic_TF_carry   [1]            12.196974 -493.977457    -6.098487     -24.393948        -36.590923                      NaN         -30.492436
+34896   CRUDE_W_micro  dynamic_TF_carry   [1]            74.913662    -4.49482    -0.749137       1.498273               0.0                      NaN           0.749137
+34897             CAD  dynamic_TF_carry  [-1]         74913.662005 -149.827324    -3.745683           -0.0         -7.491366                      NaN          -3.745683
+34898    NASDAQ_micro  dynamic_TF_carry  [-1]             1.498273    6.367661    -0.374568       0.749137              -0.0                      NaN           0.374568
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry CAD             -149.827324
+                 CRUDE_W_micro      -4.49482
+                 KRWUSD_mini      104.879127
+                 NASDAQ_micro       6.367661
+                 NIKKEI           -31.625366
+                 SPI200          -493.977457
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -568.678179
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry CAD                -3.745683
+                 CRUDE_W_micro      -0.749137
+                 KRWUSD_mini        -1.872842
+                 NASDAQ_micro       -0.374568
+                 NIKKEI             -1.265015
+                 SPI200             -6.098487
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry   -14.105731
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry CAD                       -0.0
+                 CRUDE_W_micro         1.498273
+                 KRWUSD_mini           1.872842
+                 NASDAQ_micro          0.749137
+                 NIKKEI                2.530029
+                 SPI200              -24.393948
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry     -17.743668
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry CAD                     -7.491366
+                 CRUDE_W_micro                 0.0
+                 KRWUSD_mini             -1.872842
+                 NASDAQ_micro                 -0.0
+                 NIKKEI                       -0.0
+                 SPI200                 -36.590923
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry         -45.95513
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry CAD                                    0
+                 CRUDE_W_micro                          0
+                 KRWUSD_mini                            0
+                 NASDAQ_micro                           0
+                 NIKKEI                                 0
+                 SPI200                                 0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry CAD                      -3.745683
+                 CRUDE_W_micro             0.749137
+                 KRWUSD_mini                    0.0
+                 NASDAQ_micro              0.374568
+                 NIKKEI                    1.265015
+                 SPI200                  -30.492436
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry         -31.849399
+
+********************************************************************************
+                                 END OF REPORT                                  
+********************************************************************************
+
+

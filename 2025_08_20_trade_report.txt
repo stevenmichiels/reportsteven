@@ -1,0 +1,220 @@
+
+********************************************************************************
+Trades report produced on 20/08/2025 22:51 from 19/08/2025 22:51 to 20/08/2025 22:51
+********************************************************************************
+
+
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+34978             AEX  dynamic_TF_carry    [20250900] 2025-08-20 08:00:07   [1]      901.8000
+34979    COPPER-micro  dynamic_TF_carry    [20251200] 2025-08-20 14:00:04  [-1]        4.5010
+34981   CRUDE_W_micro  dynamic_TF_carry    [20251200] 2025-08-20 14:04:25  [-1]       61.7200
+34984       EUR_micro  dynamic_TF_carry    [20251200] 2025-08-20 15:00:02   [1]        1.1744
+34987       EUR_micro  dynamic_TF_carry    [20251200] 2025-08-20 15:00:13   [1]        1.1745
+34988       EUR_micro  dynamic_TF_carry    [20251200] 2025-08-20 15:00:20   [1]        1.1743
+34976      FTSETAIWAN  dynamic_TF_carry    [20250900] 2025-08-20 02:02:07  [-1]     1997.5000
+34983     GAS_US_mini  dynamic_TF_carry    [20251000] 2025-08-20 14:05:24  [-1]        2.8350
+34985             GBP  dynamic_TF_carry    [20250900] 2025-08-20 15:00:06   [1]        1.3483
+34982      GOLD_micro  dynamic_TF_carry    [20251000] 2025-08-20 14:04:27   [1]     3359.7000
+34977       HANG_mini  dynamic_TF_carry    [20250800] 2025-08-20 02:15:06  [-1]    24920.0000
+34980        MSCIEAFA  dynamic_TF_carry    [20250900] 2025-08-20 14:04:18  [-1]     2751.0000
+34986    NASDAQ_micro  dynamic_TF_carry    [20250900] 2025-08-20 15:00:07  [-1]    23191.5000
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+34976      FTSETAIWAN  dynamic_TF_carry       2025-08-19 00:00:00  2025-08-20 02:02:07.177000  2025-08-20 02:02:07              93727.177                 NaN
+34977       HANG_mini  dynamic_TF_carry       2025-08-19 00:00:00  2025-08-20 02:15:05.339000  2025-08-20 02:15:06              94505.339               0.661
+34978             AEX  dynamic_TF_carry       2025-08-19 00:00:00  2025-08-20 08:00:06.354000  2025-08-20 08:00:07             115206.354               0.646
+34979    COPPER-micro  dynamic_TF_carry       2024-02-29 00:00:00  2025-08-20 14:00:03.533000  2025-08-20 14:00:04           46533603.533               0.467
+34980        MSCIEAFA  dynamic_TF_carry       2025-08-19 00:00:00  2025-08-20 14:00:05.988000  2025-08-20 14:04:18             136805.988             252.012
+34981   CRUDE_W_micro  dynamic_TF_carry       2025-08-19 00:00:00  2025-08-20 14:04:20.323000  2025-08-20 14:04:25             137060.323               4.677
+34982      GOLD_micro  dynamic_TF_carry       2025-08-19 00:00:00  2025-08-20 14:04:27.124000  2025-08-20 14:04:27             137067.124                 NaN
+34983     GAS_US_mini  dynamic_TF_carry       2025-08-19 00:00:00  2025-08-20 14:05:15.139000  2025-08-20 14:05:24             137115.139               8.861
+34985             GBP  dynamic_TF_carry       2025-08-19 00:00:00  2025-08-20 15:00:04.061000  2025-08-20 15:00:06             140404.061               1.939
+34986    NASDAQ_micro  dynamic_TF_carry       2025-08-19 00:00:00  2025-08-20 15:00:07.767000  2025-08-20 15:00:07             140407.767                 NaN
+34984       EUR_micro  dynamic_TF_carry       2025-08-19 00:00:00  2025-08-20 15:00:02.173000  2025-08-20 15:00:02             140402.173                 NaN
+34987       EUR_micro  dynamic_TF_carry       2025-08-19 00:00:00  2025-08-20 15:00:12.891000  2025-08-20 15:00:13             140412.891               0.109
+34988       EUR_micro  dynamic_TF_carry       2025-08-19 00:00:00  2025-08-20 15:00:18.391000  2025-08-20 15:00:20             140418.391               1.609
+
+
+==============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                   
+==============================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price    delay  bid_ask execution versus_limit versus_parent_limit total_trading
+34976      FTSETAIWAN  dynamic_TF_carry  [-1]                2020.25               None  1997.125    1996.75        1997.5      1997.5       1997.5  -23.125   -0.375      0.75         -0.0                 NaN         0.375
+34977       HANG_mini  dynamic_TF_carry  [-1]                25216.0               None   24925.0    24922.0       24928.0     24928.0      24920.0   -291.0     -3.0      -2.0         -8.0                 NaN          -5.0
+34978             AEX  dynamic_TF_carry   [1]                  903.5               None     901.5      901.7         901.3       901.3        901.8      2.0     -0.2      -0.1         -0.5                 NaN          -0.3
+34979    COPPER-micro  dynamic_TF_carry  [-1]                    NaN               None   4.50225     4.5005         4.504       4.504        4.501      NaN -0.00175    0.0005       -0.003                 NaN      -0.00125
+34980        MSCIEAFA  dynamic_TF_carry  [-1]                 2742.8               None    2751.9     2751.8        2752.0      2752.0       2751.0      9.1     -0.1      -0.8         -1.0                 NaN          -0.9
+34981   CRUDE_W_micro  dynamic_TF_carry  [-1]                   61.2               None      61.7      61.68         61.72       61.72        61.72      0.5    -0.02      0.04         -0.0                 NaN          0.02
+34982      GOLD_micro  dynamic_TF_carry   [1]                 3334.6               None   3359.45     3359.6        3359.3         NaN       3359.7   -24.85    -0.15      -0.1          NaN                 NaN         -0.25
+34983     GAS_US_mini  dynamic_TF_carry  [-1]                   2.86               None      2.84      2.835         2.845       2.845        2.835    -0.02   -0.005      -0.0        -0.01                 NaN        -0.005
+34985             GBP  dynamic_TF_carry   [1]                 1.3487               None   1.34815     1.3482        1.3481      1.3481       1.3483  0.00055 -0.00005   -0.0001      -0.0002                 NaN      -0.00015
+34986    NASDAQ_micro  dynamic_TF_carry  [-1]                23428.5               None   23191.0   23190.75      23191.25    23191.25      23191.5   -237.5    -0.25      0.75         0.25                 NaN           0.5
+34984       EUR_micro  dynamic_TF_carry   [1]                 1.1728               None    1.1743     1.1744        1.1742      1.1742       1.1744  -0.0015  -0.0001       0.0      -0.0002                 NaN       -0.0001
+34987       EUR_micro  dynamic_TF_carry   [1]                 1.1728               None    1.1743     1.1744        1.1742      1.1742       1.1745  -0.0015  -0.0001   -0.0001      -0.0003                 NaN       -0.0002
+34988       EUR_micro  dynamic_TF_carry   [1]                 1.1728               None    1.1744     1.1745        1.1743      1.1743       1.1743  -0.0016  -0.0001    0.0002          0.0                 NaN        0.0001
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+34976      FTSETAIWAN  dynamic_TF_carry  [-1]      342.550018 -675.083894  -10.947306     21.894613             -0.0                     NaN         10.947306
+34977       HANG_mini  dynamic_TF_carry  [-1]     4297.348366 -677.161764   -6.981049     -4.654033       -18.616131                     NaN        -11.635082
+34978             AEX  dynamic_TF_carry   [1]      246.576665   81.110676   -8.111068     -4.055534       -20.277669                     NaN        -12.166601
+34979    COPPER-micro  dynamic_TF_carry  [-1]        2.379131         NaN   -7.355628      2.101608       -12.609648                     NaN          -5.25402
+34980        MSCIEAFA  dynamic_TF_carry  [-1]      357.551826  254.508559   -2.796797    -22.374379       -27.967974                     NaN        -25.171176
+34981   CRUDE_W_micro  dynamic_TF_carry  [-1]       18.071048  276.685665  -11.067427     22.134853             -0.0                     NaN         11.067427
+34982      GOLD_micro  dynamic_TF_carry   [1]      491.031563 -506.077447   -3.054793     -2.036529              NaN                     NaN         -5.091322
+34983     GAS_US_mini  dynamic_TF_carry  [-1]        1.619126 -123.523418  -30.880854          -0.0       -61.761709                     NaN        -30.880854
+34985             GBP  dynamic_TF_carry   [1]        0.089238   61.633241   -5.603022    -11.206044       -22.412087                     NaN        -16.809066
+34986    NASDAQ_micro  dynamic_TF_carry  [-1]     3619.528846  -656.16275   -0.690698      2.072093         0.690698                     NaN          1.381395
+34984       EUR_micro  dynamic_TF_carry   [1]        0.088844 -168.835091  -11.255673           0.0       -22.511345                     NaN        -11.255673
+34987       EUR_micro  dynamic_TF_carry   [1]        0.088844 -168.835091  -11.255673    -11.255673       -33.767018                     NaN        -22.511345
+34988       EUR_micro  dynamic_TF_carry   [1]        0.088844 -180.090764  -11.255673     22.511345              0.0                     NaN         11.255673
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+34976      FTSETAIWAN  dynamic_TF_carry  [-1]            29.636655 -685.347638   -11.113745      22.227491              -0.0                      NaN          11.113745
+34977       HANG_mini  dynamic_TF_carry  [-1]             0.949217 -276.222078     -2.84765      -1.898434         -7.593734                      NaN          -4.746084
+34978             AEX  dynamic_TF_carry   [1]           172.514226  345.028451   -34.502845     -17.251423        -86.257113                      NaN         -51.754268
+34979    COPPER-micro  dynamic_TF_carry  [-1]          1852.290913         NaN    -3.241509       0.926145         -5.556873                      NaN          -2.315364
+34980        MSCIEAFA  dynamic_TF_carry  [-1]            37.045818  337.116946    -3.704582     -29.636655        -37.045818                      NaN         -33.341236
+34981   CRUDE_W_micro  dynamic_TF_carry  [-1]            74.091637   37.045818    -1.481833       2.963665              -0.0                      NaN           1.481833
+34982      GOLD_micro  dynamic_TF_carry   [1]             7.409164 -184.117717    -1.111375      -0.740916               NaN                      NaN          -1.852291
+34983     GAS_US_mini  dynamic_TF_carry  [-1]          1852.290913  -37.045818    -9.261455           -0.0        -18.522909                      NaN          -9.261455
+34985             GBP  dynamic_TF_carry   [1]         46307.272835      25.469    -2.315364      -4.630727         -9.261455                      NaN          -6.946091
+34986    NASDAQ_micro  dynamic_TF_carry  [-1]             1.481833 -351.935274    -0.370458       1.111375          0.370458                      NaN           0.740916
+34984       EUR_micro  dynamic_TF_carry   [1]          9261.454567  -13.892182    -0.926145            0.0         -1.852291                      NaN          -0.926145
+34987       EUR_micro  dynamic_TF_carry   [1]          9261.454567  -13.892182    -0.926145      -0.926145         -2.778436                      NaN          -1.852291
+34988       EUR_micro  dynamic_TF_carry   [1]          9261.454567  -14.818327    -0.926145       1.852291               0.0                      NaN           0.926145
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry AEX              345.028451
+                 COPPER-micro              0
+                 CRUDE_W_micro     37.045818
+                 EUR_micro        -42.602691
+                 FTSETAIWAN      -685.347638
+                 GAS_US_mini      -37.045818
+                 GBP                  25.469
+                 GOLD_micro      -184.117717
+                 HANG_mini       -276.222078
+                 MSCIEAFA         337.116946
+                 NASDAQ_micro    -351.935274
+delay_cash Total Sum
+                 delay_cash
+strategy_name              
+dynamic_TF_carry   -832.611
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry AEX               -34.502845
+                 COPPER-micro       -3.241509
+                 CRUDE_W_micro      -1.481833
+                 EUR_micro          -2.778436
+                 FTSETAIWAN        -11.113745
+                 GAS_US_mini        -9.261455
+                 GBP                -2.315364
+                 GOLD_micro         -1.111375
+                 HANG_mini           -2.84765
+                 MSCIEAFA           -3.704582
+                 NASDAQ_micro       -0.370458
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry   -72.729252
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry AEX                 -17.251423
+                 COPPER-micro          0.926145
+                 CRUDE_W_micro         2.963665
+                 EUR_micro             0.926145
+                 FTSETAIWAN           22.227491
+                 GAS_US_mini               -0.0
+                 GBP                  -4.630727
+                 GOLD_micro           -0.740916
+                 HANG_mini            -1.898434
+                 MSCIEAFA            -29.636655
+                 NASDAQ_micro          1.111375
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry     -26.003332
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry AEX                    -86.257113
+                 COPPER-micro            -5.556873
+                 CRUDE_W_micro                -0.0
+                 EUR_micro               -4.630727
+                 FTSETAIWAN                   -0.0
+                 GAS_US_mini            -18.522909
+                 GBP                     -9.261455
+                 GOLD_micro                      0
+                 HANG_mini               -7.593734
+                 MSCIEAFA               -37.045818
+                 NASDAQ_micro             0.370458
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry       -168.498171
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry AEX                                    0
+                 COPPER-micro                           0
+                 CRUDE_W_micro                          0
+                 EUR_micro                              0
+                 FTSETAIWAN                             0
+                 GAS_US_mini                            0
+                 GBP                                    0
+                 GOLD_micro                             0
+                 HANG_mini                              0
+                 MSCIEAFA                               0
+                 NASDAQ_micro                           0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry AEX                     -51.754268
+                 COPPER-micro             -2.315364
+                 CRUDE_W_micro             1.481833
+                 EUR_micro                -1.852291
+                 FTSETAIWAN               11.113745
+                 GAS_US_mini              -9.261455
+                 GBP                      -6.946091
+                 GOLD_micro               -1.852291
+                 HANG_mini                -4.746084
+                 MSCIEAFA                -33.341236
+                 NASDAQ_micro              0.740916
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry         -98.732584
+
+********************************************************************************
+                                 END OF REPORT                                  
+********************************************************************************
+
+
